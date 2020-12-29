@@ -1,0 +1,10 @@
+{
+  "posts": [
+    { "id": 1, "title": "One post", "text": "Text text text text" },
+    { "id": 2, "title": "Two post", "text": "Text text text text" },
+    { "id": 3, "title": "Three post", "text": "Text text text text" },
+    { "id": 4, "title": "Fore post", "text": "Text text text text" },
+    { "id": 5, "title": "Five post", "text": "Text text text text" }
+  ],
+  "about": { "title": "About as" }
+}
