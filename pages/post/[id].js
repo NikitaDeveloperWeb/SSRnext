@@ -1,7 +1,10 @@
 import { useRouter } from 'next/router';
 import { MainLayout } from '../../components/MainLayout';
 import React from 'react';
-
+import styled from '@emotion/styled';
+const Button = styled.button`
+  color: turquoise;
+`;
 export default function Post({ post: serverPost }) {
   const router = useRouter();
   const [post, setPost] = React.useState(serverPost);
@@ -31,6 +34,7 @@ export default function Post({ post: serverPost }) {
       <h1>{post.title}</h1>
       <hr />
       <p>{post.text}</p>
+      <Button>Like</Button>
     </MainLayout>
   );
 }
